@@ -10,7 +10,6 @@ pocitadlo_renames=0
 rozdelovac="."
 
 for file in *; do
-
 prefix=${file%%$rozdelovac*}
 index=${#prefix}
 
